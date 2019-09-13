@@ -1,0 +1,25 @@
+{
+  "description": "There will be a description.",
+  "manifest_version": 2,
+  "name": "Browsing Time",
+  "version": "0.0",
+  "homepage_url": "https://github.com/MarkTheHopeful/time-manager/tree/master/",
+  "icons": {
+    "48": "icons/alarm-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/alarm-36.png",
+    "theme_icons": [{
+      "light": "icons/alarm-36.png",
+      "dark": "icons/alarm-36.png",
+      "size": 32
+    }],
+    "default_title": "Browsing Time",
+    "default_popup": "popup/base.html"
+  }
+}
